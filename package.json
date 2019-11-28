@@ -67,11 +67,6 @@
     "rimraf": "^3.0.0",
     "typescript": "^3.4.5"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "**/*.{js,ts,json,css,md}": [
       "yarn prettier",

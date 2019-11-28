@@ -1,0 +1,16 @@
+{
+  "code": "0",
+  "data": {
+    "flowDetails": ["到达那那那", "2018-12:24 到达北京"],
+    "expressCode": "1233333",
+    "expressCompanyCn": "顺丰",
+    "senderName": "李树鹏",
+    "senderPhone": "18729929929",
+    "senderAddr": "北京市朝阳区",
+    "receiveName": "转转",
+    "receivePhone": "024-123333",
+    "receiveAddr": "北京市朝阳区转转精神科技有限责任公司",
+    "publishCount": 12
+  },
+  "msg": ""
+}

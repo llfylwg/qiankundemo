@@ -1,0 +1,26 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "valueId": 123123,
+      "valueText": "iphone"
+    },
+    {
+      "valueId": 123124,
+      "valueText": "小米"
+    },
+    {
+      "valueId": 123125,
+      "valueText": "华为"
+    },
+    {
+      "valueId": 123126,
+      "valueText": "魅族"
+    },
+    {
+      "valueId": 123127,
+      "valueText": "OPPO"
+    }
+  ],
+  "msg": ""
+}

@@ -1,0 +1,23 @@
+{
+  "code": 0,
+  "data": {
+    "consigneeName": "李树鹏",
+    "consigneePhone": "18710088282",
+    "consigeeAddr": "北京市",
+    "orderId": "",
+    "orderItems": {
+      "count": 2,
+      "price": 123,
+      "skuInfo": "",
+      "subOrderId": "",
+      "productId": ""
+    },
+    "expressInfo": [
+      {
+        "expressEnName": "shunfeng",
+        "expressCnName": "顺丰"
+      }
+    ]
+  },
+  "msg": ""
+}

@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "orderId": "34783584935",
+      "category": "手机",
+      "brand": "苹果",
+      "goodsInfo": "iphoneX 金色 64g 国行 靓机  10台",
+      "price": 3000,
+      "status": 0,
+      "storeName": "超越通讯",
+      "createTime": "1559120718529"
+    }
+  ],
+  "msg": ""
+}

@@ -1,0 +1,224 @@
+{
+  "code": 0,
+  "data": {
+    "price": 0,
+    "stock": 10,
+    "freight": 5,
+    "pics": "",
+    "context": "1234123123 哈哈 呵呵 嘿嘿",
+    "service": "1083973,1083974",
+    "specialDesc": "1083976,1083977",
+    "items": [
+      {
+        "name": "分类",
+        "shotName": "category1",
+        "bindType": "",
+        "valueBindWith": "",
+        "valueType": "category",
+        "values": [
+          {
+            "valueText": "手机",
+            "valueId": 101
+          },
+          {
+            "valueText": "平板电脑",
+            "valueId": 119
+          }
+        ]
+      },
+      {
+        "name": "品牌",
+        "shotName": "category2",
+        "bindType": "category",
+        "valueBindWith": "category1",
+        "valueType": "category"
+      },
+      {
+        "name": "型号",
+        "shotName": "category3",
+        "bindType": "category",
+        "valueBindWith": "category2",
+        "valueType": "category"
+      },
+      {
+        "name": "颜色",
+        "shotName": "color",
+        "bindType": "param",
+        "valueBindWith": "category3",
+        "valueType": "param",
+        "paramId": -1,
+        "paramIdMapping": [
+          {
+            "key": 101,
+            "value": 5587
+          },
+          {
+            "key": 119,
+            "value": 73
+          }
+        ]
+      },
+      {
+        "name": "容量",
+        "shotName": "capacity",
+        "bindType": "param",
+        "valueBindWith": "category3",
+        "valueType": "param",
+        "paramId": -1,
+        "paramIdMapping": [
+          {
+            "key": 101,
+            "value": 6651
+          },
+          {
+            "key": 119,
+            "value": 71
+          }
+        ]
+      },
+      {
+        "name": "渠道",
+        "shotName": "channel",
+        "bindType": "",
+        "valueBindWith": "",
+        "valueType": "param",
+        "paramId": 6978,
+        "values": [
+          {
+            "valueText": "国行",
+            "valueId": 1080627
+          },
+          {
+            "valueText": "港澳版",
+            "valueId": 1080628
+          },
+          {
+            "valueText": "日韩",
+            "valueId": 1080697
+          },
+          {
+            "valueText": "其他版本",
+            "valueId": 1080629
+          }
+        ]
+      },
+      {
+        "name": "SIM卡锁",
+        "shotName": "simLock",
+        "bindType": "drw",
+        "valueBindWith": "channel",
+        "valueType": "param",
+        "paramId": 7194,
+        "valueMapping": [
+          {
+            "key": 1080629,
+            "values": [1083959, 1083958]
+          }
+        ]
+      },
+      {
+        "name": "保修期",
+        "shotName": "warranty",
+        "bindType": "",
+        "valueBindWith": "",
+        "valueType": "param",
+        "paramId": 7195,
+        "values": [
+          {
+            "valueText": "一个月以上",
+            "valueId": 1080635
+          },
+          {
+            "valueText": "不足一个月或过保",
+            "valueId": 1083960
+          }
+        ]
+      },
+      {
+        "name": "类型",
+        "shotName": "usedType",
+        "bindType": "",
+        "valueBindWith": "",
+        "valueType": "param",
+        "paramId": 7198,
+        "values": [
+          {
+            "valueText": "全新（未拆封）",
+            "valueId": 1083961
+          },
+          {
+            "valueText": "全新（已拆封未激活）",
+            "valueId": 1083962
+          },
+          {
+            "valueText": "二手（功能完好未拆修）",
+            "valueId": 1083963
+          }
+        ]
+      },
+      {
+        "name": "配件",
+        "shotName": "accessories",
+        "bindType": "",
+        "valueBindWith": "",
+        "valueType": "param",
+        "paramId": 7196,
+        "values": [
+          {
+            "valueText": "原装配件齐全",
+            "valueId": 1083964
+          },
+          {
+            "valueText": "无配件",
+            "valueId": 1083965
+          }
+        ]
+      },
+      {
+        "name": "特点",
+        "shotName": "trait",
+        "bindType": "drw",
+        "valueBindWith": "usedType",
+        "valueType": "param",
+        "paramId": 7197,
+        "valueMapping": [
+          {
+            "key": 1083961,
+            "values": [1083966, 1083967]
+          },
+          {
+            "key": 1083962,
+            "values": [1083966]
+          },
+          {
+            "key": 1083963,
+            "values": [1083968, 1083969]
+          }
+        ]
+      },
+      {
+        "name": "等级",
+        "shotName": "level",
+        "bindType": "drw",
+        "valueBindWith": "usedType",
+        "valueType": "param",
+        "paramId": 7189,
+        "valueMapping": [
+          {
+            "key": 1083961,
+            "values": [1083970]
+          },
+          {
+            "key": 1083962,
+            "values": [1083970]
+          },
+          {
+            "key": 1083963,
+            "values": [1083971, 1083972]
+          }
+        ]
+      }
+    ]
+  },
+  "msg": ""
+}

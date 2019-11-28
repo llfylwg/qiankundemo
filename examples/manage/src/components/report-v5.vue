@@ -1,0 +1,312 @@
+<template>
+  <el-dialog  width="500px" :visible.sync="dialogReportVisible" :before-close="closeReport">
+    <z-qc-report :zjId="zjId"></z-qc-report>
+  </el-dialog>
+</template>
+
+<script>
+  import zQcReport from '@zz-common/zz-ui/lib/qc-report'
+  import '@zz-common/zz-ui/lib/qc-report/style';
+  export default {
+    name: 'yp-report-v5',
+    components: {
+      zQcReport
+    },
+    props: ['zjId'],
+    data () {
+      return  {
+        dialogReportVisible: true,
+        zjm: '',
+        subTitle: '',
+        condition: '',
+        brand: '',
+        unchecked: '',
+        model: '',
+        basicInfo: '',
+        basicCheckList: '',
+        functionCheck: '',
+        displayCheck: '',
+        zjStr: '',
+        isNormal: true,
+        unNormalReason: '',
+        precheckType: ''
+      }
+    },
+    created () {
+    },
+    computed: {
+    },
+    methods: {
+      closeReport () {
+        this.$emit('closeReport')
+      }
+    }
+  }
+</script>
+<style lang="scss" rel="stylesheet/scss" scoped>
+  .report-partqc {
+    color: #ff5555;
+    &.center {
+      text-align: center;
+    }
+    &.left {
+      text-align: left;
+    }
+  }
+  $border: 1px solid #EAEAEA;
+  .sp-report-box {
+    border: 2px solid #D2D5DF;
+    background-color: #FFF;
+    margin-bottom: 24px;
+    .zj-top-bg {
+      display: block;
+      width: 100%;
+      height: 121px;
+      background: url(https://pic4.zhuanstatic.com/zhuanzh/n_v24ecbad466fa34080917952734dadba9f.png);
+      background-size: 100%;
+      z-index: 0;
+    }
+    .zj-bottom-bg {
+      display: block;
+      width: 100%;
+      height: 121px;
+      background: url(https://pic3.zhuanstatic.com/zhuanzh/n_v2f36e40c973cc4cdbb20160746a0f7dd5.png);
+      background-size: 100%;
+    }
+  }
+  .report-box {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin: 6px;
+    border: 6px solid #D2D5DF;
+    background: url(https://pic2.zhuanstatic.com/zhuanzh/n_v29f1f1b3e98ac41f3b3f6e36f46788ad7.png) repeat-y;
+    background-size: 100%;
+    .report-title-box {
+      width: 440px;
+      margin: -40px auto 20px;
+      .title {
+        padding-bottom: 5px;
+        color: #676F8A;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+      }
+    }
+    .footer-fix {
+      position: absolute;
+      bottom: 30px;
+      width: 100%;
+      .footer-pos {
+        text-align: center;
+        margin: 0 auto;
+        color: #AAAEB9;
+        font-size: 12px;
+      }
+    }
+    .sub-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      color: #A9AEC1;
+      span {
+        padding: 0 15px;
+      }
+      i {
+        width: 52px;
+        height: 1px;
+        vertical-align: middle;
+        background: #969696;
+      }
+    }
+    .report-content {
+      padding: 0 30px;
+    }
+    .report-conclusion {
+      border-top: $border;
+      border-left: $border;
+      border-right: $border;
+      margin: 0 30px;
+      .conclusion-title {
+        color: #00B65E;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 50px 0 12px;
+      }
+      .conclusion-desc {
+        color: #969696;
+        margin-top: 10px;
+        padding: 0 15px 26px;
+      }
+    }
+    .report-brand {
+      padding-top: 35px;
+      border-top: $border;
+      border-left: $border;
+      border-right: $border;
+      margin: 0 30px;
+      .brand-title {
+        color: #504A4D;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 12px 0;
+      }
+      .brand-desc {
+        color: #00B65E;
+        margin-top: 10px;
+        padding: 0 15px 26px;
+      }
+    }
+    .report-authenticate {
+      margin: 0 30px;
+      .authenticate-title {
+        color: #504A4D;
+        font-weight: bold;
+        margin: 50px 0 25px 0;
+        font-size: 14px;
+      }
+    }
+    .report-basic {
+      border-left: $border;
+      border-right: $border;
+      border-bottom: $border;
+      margin: 0 0 26px 0;
+      .basic-line {
+        display: table;
+        width: 100%;
+        border-top: $border;
+      }
+      .basic-key, .basic-value {
+        font-size: 12px;
+        padding: 11px 16px;
+        text-align: left;
+        color: #969696;
+        display: table-cell;
+        box-sizing: border-box;
+      }
+      .basic-key {
+        width: 110px;
+        padding: 11px;
+        color: #969696;
+        border-left: $border;
+        border-right: $border;
+      }
+      .basic-value {
+        width: 33%;
+      }
+    }
+    .module-title {
+      color: #504A4D;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .report-function, .report-function{
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #F2F2F2;
+      span {
+        width: 50%;
+        float: left;
+        text-align: left;
+        line-height: 2;
+        color: #969696;
+        padding-left: 20px;
+        box-sizing: border-box;
+      }
+      i {
+        text-align: center;
+        width: 18px;
+        height: 18px;
+        line-height: 21px;
+        display: inline-block;
+        border-radius: 50%;
+        background-color: #FAC65E;
+        margin-right: 8px;
+        &:after {
+          color: #FFF;
+          content: "";
+          width: 18px;
+          height: 18px;
+          background-size: cover;
+          display: block;
+          background-image: url('//pic3.zhuanstatic.com/zhuanzh/n_v2d5d01a320c83439590a50d67ee98466a.png');
+          font-size: 10px;
+        }
+        &.allNormal{
+          background-color: #00B65E;
+          &:after {
+            content: "";
+            width: 18px;
+            height: 18px;
+            background-size: cover;
+            display: block;
+            background-image: url('//pic3.zhuanstatic.com/zhuanzh/n_v234ede397c61a4a6eaffeabd4ebf94c21.png');
+          }
+        }
+      }
+    }
+    .report-comment {
+      text-align: left;
+      h2 {
+        text-align: center;
+      }
+      span {
+        word-break: break-all;
+        color: #969696;
+        line-height: 2;
+      }
+    }
+  }
+  .sp-report-box.report-v4 {
+    .zj-top-bg,
+    .zj-bottom-bg {
+      color: #D2D5DF;
+      font-family: 'PingFangSC-Regular';
+      letter-spacing: 15px;
+      line-height: 60px;
+      font-size:9px;
+    }
+    .report-title-box .report-conclusion .conclusion-title,
+    .report-conclusion .footer-fix {
+      color: #000;
+    }
+  }
+
+  .check-name {
+    display: table-cell;
+    color: #969696;
+    width: 150px;
+    vertical-align: middle;
+  }
+
+  .check-details {
+    display: table-cell;
+  }
+
+  .check-details-line {
+    border-bottom: 1px solid #EAEAEA;
+    &:last-child {
+      border-bottom: none;
+    }
+    display: flex;
+    .basic-key {
+      flex: none;
+      text-align: center !important;
+      width: 145px !important;
+    }
+    .basic-value {
+      flex: 1;
+      text-align: center !important;
+    }
+  }
+
+  .report-unchecked {
+    span {
+      color: #969696;
+      display: block;
+      margin: 15px 0;
+      box-sizing: border-box;
+    }
+  }
+</style>

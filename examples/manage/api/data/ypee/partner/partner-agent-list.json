@@ -1,0 +1,20 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "accountState": "余额状态",
+      "agentId": "对接人ID",
+      "typeDesc": "类型",
+      "stateDesc": "生效中",
+      "mobile": "联系电话",
+      "createTime": "创建时间",
+      "name": "姓名",
+      "restCooperation": "剩余合作期",
+      "id": "对接人表记录id",
+      "storeNum": "门店数量",
+      "authorityDesc": "权限(文本)"
+    }
+  ],
+  "rows": 10,
+  "msg": ""
+}

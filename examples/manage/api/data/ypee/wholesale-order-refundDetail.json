@@ -1,0 +1,15 @@
+{
+  "msg": "失败信息",
+  "code": 0,
+  "data": {
+    "refundType": "退款类型",
+    "reason": "错拍/多拍/我不想要了",
+    "statusDesc": "仅退款",
+    "orderId": "1111",
+    "totalPrice": "100",
+    "refundTime": "2016-04-23",
+    "countDown": 122222,
+    "status": "状态码",
+    "desc": "与卖家沟通一致，拍错了机型，退款后会重新下单"
+  }
+}

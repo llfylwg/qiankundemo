@@ -1,0 +1,9 @@
+{
+  "code": 0,
+  "data": {
+    "name": "'姓名'",
+    "waitOrderNum": "'待结算订单总金额'",
+    "storeNum": "'门店数量'"
+  },
+  "msg": ""
+}

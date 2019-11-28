@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "productId": "122222",
+      "productTitle": "商品信息",
+      "statusDesc": "在售中",
+      "levelDesc": "等级",
+      "stock": "库存",
+      "saleNum": "销量",
+      "price": "价格",
+      "updateTime": "更新时间",
+      "operations": ["detail", "goSale", "editor", "soldout"]
+    }
+  ],
+  "msg": "错误提示",
+  "rows": 10
+}

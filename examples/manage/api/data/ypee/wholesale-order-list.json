@@ -1,0 +1,42 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "buyerUid": "买家uid",
+      "buyerName": "买家name",
+      "isModefiedPrice": true,
+      "orderId": "1233333",
+      "refundCountDown": 123333,
+      "lastOpTime": "最后修改时间",
+      "statusDesc": "已完成",
+      "totalPrice": 1233,
+      "freight": 111,
+      "operation": [
+        "detail",
+        "modifyPrice",
+        "modifyFreight",
+        "deliver",
+        "viewExpress",
+        "cancel",
+        "agreeRefound",
+        "alreadyDeliver"
+      ],
+      "items": [
+        {
+          "productId": "122222",
+          "skuInfo": "手机信息",
+          "price": 1200,
+          "count": 3
+        },
+        {
+          "productId": "122222",
+          "skuInfo": "手机信息",
+          "price": 1200,
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "msg": "错误提示",
+  "rows": 10
+}

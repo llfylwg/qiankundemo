@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "msg": "",
+  "rows": 0,
+  "data": [
+    { "code": 101, "desc": "S" },
+    { "code": 102, "desc": "A" },
+    { "code": 103, "desc": "B" },
+    { "code": 104, "desc": "C" },
+    { "code": 105, "desc": "D" },
+    { "code": 106, "desc": "E" },
+    { "code": 107, "desc": "F" },
+    { "code": 108, "desc": "G" },
+    { "code": 109, "desc": "H" }
+  ]
+}

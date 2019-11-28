@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "zzUid": "转转Uid",
+      "pic": "http://pic1.zhuanstatic.com/zhuanzh/n_v2e3358eb5d1bb467294dca919dc7bb7be.jpg?w=240",
+      "nick": "昵称"
+    },
+    {
+      "zzUid": "123212312",
+      "pic": "http://pic1.zhuanstatic.com/zhuanzh/n_v2e3358eb5d1bb467294dca919dc7bb7be.jpg?w=240",
+      "nick": "a昵称"
+    }
+  ],
+  "msg": ""
+}

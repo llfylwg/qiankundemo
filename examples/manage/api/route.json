@@ -1,0 +1,5 @@
+{
+  "/*\\?:test": "/$1",
+  "/ypee/:name1/:name2": "/:name1-:name2",
+  "/ypee/:name1/:name2/:name3": "/:name1-:name2-:name3"
+}

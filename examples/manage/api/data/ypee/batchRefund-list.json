@@ -1,0 +1,23 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "orderId": "122222",
+      "id": "12222",
+      "goodsTitle": "商品信息",
+      "createBackOrderTime": "退货时间",
+      "statusDesc": "等待付款",
+      "batchPrice": 1200,
+      "saleNum": "售卖销量",
+      "buyerNickName": "卖家昵称",
+      "buyerUid": "买家uid",
+      "realPrice": {
+        "price": 2000,
+        "expressPrice": 20
+      },
+      "operations": ["orderDetail", "agree", "sendGood", "refundDetail"]
+    }
+  ],
+  "msg": "错误提示",
+  "rows": 10
+}

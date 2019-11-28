@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "id": "申请记录id",
+      "name": "姓名",
+      "zzUid": "转转ID",
+      "mobile": "联系电话",
+      "area": "地区",
+      "stateDesc": "状态（文本）",
+      "applyTime": "申请时间"
+    }
+  ],
+  "msg": ""
+}

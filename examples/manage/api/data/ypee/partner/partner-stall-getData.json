@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "data": {
+    "list": [
+      {
+        "date": "12-06",
+        "online": 102000,
+        "code": 120000,
+        "recovery": 102000,
+        "total": 324000,
+        "yesterdayRate": "5.2%"
+      }
+    ]
+  },
+  "msg": ""
+}

@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "msg": "",
+  "data": {
+    "name": "姓名",
+    "mobile": "联系电话",
+    "area": "地区",
+    "address": "详细地址",
+    "professionInfo": {
+      "duration": "从业时长（文本）",
+      "hasShop": "是否有零售门店(文本)",
+      "customerNum": "客户数量(文本)",
+      "numPerDay": "日均台数(文本)"
+    }
+  }
+}

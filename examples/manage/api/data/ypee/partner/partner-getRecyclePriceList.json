@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "updateTime": "2019-09-08 12:00",
+      "id": "1001",
+      "brand": {
+        "name": "'iphone'",
+        "logo": "'图片url'"
+      },
+      "image": "n_v2bcd2c7575c224185b0cedbc338d9b808.jpg"
+    }
+  ],
+  "rows": 1,
+  "msg": ""
+}

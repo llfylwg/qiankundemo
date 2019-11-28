@@ -1,0 +1,43 @@
+{
+  "name": "bm-biz-manage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "index-build": "node manage-index-build.js",
+    "server": "json-server api/db.js -p 3003 -w true -r api/route.json"
+  },
+  "dependencies": {
+    "@antv/data-set": "^0.10.2",
+    "@zz-common/zz-ui": "2.12.1",
+    "@zz-vc/zzpcqr": "^1.1.8",
+    "axios": "^0.18.0",
+    "dom-to-image": "^2.6.0",
+    "element-ui": "^2.9.2",
+    "html2canvas": "^1.0.0-rc.1",
+    "js-cookie": "^2.2.0",
+    "lodash": "^4.17.11",
+    "viser": "^2.4.6",
+    "viser-vue": "^2.4.6",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-plugin-eslint": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-prettier": "^2.7.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "json-server": "^0.14.2",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "vue-template-compiler": "^2.5.17"
+  }
+}

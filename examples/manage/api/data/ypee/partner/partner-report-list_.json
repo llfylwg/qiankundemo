@@ -1,0 +1,173 @@
+{
+  "code": 0,
+  "data": {
+    "indexItemDesc": "支付GMV",
+    "indexItem": "1",
+    "list": [
+      {
+        "indexDimension": "1",
+        "indexDimensionDesc": "线下扫码",
+        "indexValues": [
+          {
+            "date": "2019-06-01",
+            "value": 19,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-02",
+            "value": 23,
+            "dayBasis": "-2.5"
+          },
+          {
+            "date": "2019-06-03",
+            "value": 24,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-04",
+            "value": 23,
+            "dayBasis": "-2.5"
+          },
+          {
+            "date": "2019-06-05",
+            "value": 24,
+            "dayBasis": "/"
+          },
+          {
+            "date": "2019-06-06",
+            "value": 23,
+            "dayBasis": "0"
+          },
+          {
+            "date": "2019-06-07",
+            "value": 24,
+            "dayBasis": "2.5"
+          }
+        ]
+      },
+      {
+        "indexDimension": "2",
+        "indexDimensionDesc": "线上订单",
+        "indexValues": [
+          {
+            "date": "2019-06-01",
+            "value": 10,
+            "dayBasis": "-2.5"
+          },
+          {
+            "date": "2019-06-02",
+            "value": 14,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-03",
+            "value": 18,
+            "dayBasis": "-2.5"
+          },
+          {
+            "date": "2019-06-04",
+            "value": 16,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-05",
+            "value": 20,
+            "dayBasis": "-2.5"
+          },
+          {
+            "date": "2019-06-06",
+            "value": 18,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-07",
+            "value": 24,
+            "dayBasis": "-2.5"
+          }
+        ]
+      },
+      {
+        "indexDimension": "3",
+        "indexDimensionDesc": "回收订单",
+        "indexValues": [
+          {
+            "date": "2019-06-01",
+            "value": 18,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-02",
+            "value": 22,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-03",
+            "value": 22,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-04",
+            "value": 24,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-05",
+            "value": 24,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-06",
+            "value": 26,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-07",
+            "value": 20,
+            "dayBasis": "2.5"
+          }
+        ]
+      },
+      {
+        "indexDimension": "4",
+        "indexDimensionDesc": "总GMV",
+        "indexValues": [
+          {
+            "date": "2019-06-01",
+            "value": 12,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-02",
+            "value": 21,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-03",
+            "value": 20,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-04",
+            "value": 21,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-05",
+            "value": 26,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-06",
+            "value": 20,
+            "dayBasis": "2.5"
+          },
+          {
+            "date": "2019-06-07",
+            "value": 16,
+            "dayBasis": "2.5"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "msg": "'null'",
+  "data": [
+    {
+      "typeDesc": "支出",
+      "payTime": "1566030268484",
+      "businessTypeDesc": "支出原因",
+      "balanceSnapshotAsYuan": "50.00",
+      "moneyAsYuan": "1.00",
+      "rows": "1",
+      "type": "1",
+      "money": "100",
+      "id": "1234",
+      "balanceSnapshot": "5000"
+    }
+  ],
+  "code": "0"
+}

@@ -1,0 +1,56 @@
+{
+  "msg": "异常消息",
+  "code": 0,
+  "data": {
+    "deliverTime": "发货时间",
+    "refundCountDown": 12000,
+    "refundReason": "退款原因",
+    "process": [
+      {
+        "name": "节点名称",
+        "doneTime": "完成时间",
+        "isDone": true,
+        "code": "1"
+      },
+      {
+        "name": "节点名称",
+        "doneTime": "完成时间",
+        "isDone": true,
+        "code": "2"
+      },
+      {
+        "name": "节点名称",
+        "doneTime": "完成时间",
+        "isDone": false,
+        "code": "3"
+      }
+    ],
+    "statusDesc": "状态描述",
+    "consigneeAddr": "收件地址",
+    "payTime": "支付时间",
+    "orderId": "订单Id",
+    "totalPrice": "总价",
+    "buyerNickName": "买家昵称",
+    "freight": "运费",
+    "confimReceiveTime": "订单确认收货时间",
+    "expressNum": "",
+    "isModefiedPrice": "是否修改过价格",
+    "consigneeName": "收件人",
+    "receiveCountDown": 12000,
+    "createTime": "创建时间",
+    "buyerUid": "买家Uid",
+    "expressCompany": "",
+    "consigneePhone": "收件电话",
+    "payCountDown": 2222,
+    "items": [
+      {
+        "productId": "商品Id",
+        "orderId": "子订单id",
+        "price": "单价",
+        "count": "数量",
+        "skuInfo": "sku信息"
+      }
+    ],
+    "status": "3"
+  }
+}

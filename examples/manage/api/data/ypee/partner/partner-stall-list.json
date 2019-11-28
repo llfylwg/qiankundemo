@@ -1,0 +1,40 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "address": "北京 海淀 东升科技园B座6层",
+      "typeDesc": "普通门店",
+      "partnerUid": "2",
+      "updateTime": "2019-05-02",
+      "managerName": "胖园",
+      "type": "1",
+      "stallName": "哈哈哈哈哈店铺名",
+      "createTime": "2019-05-02",
+      "contactNumber": "15201346666",
+      "partnerEid": "2",
+      "id": "1",
+      "managerUid": "1",
+      "agentId": "123",
+      "agentName": "sss",
+      "typeUpdateTime": "May 29"
+    },
+    {
+      "address": "北京 海淀 东升科技园B座6层",
+      "typeDesc": "普通门店",
+      "partnerUid": "2",
+      "updateTime": "2019-03-21",
+      "managerName": "胖园",
+      "type": "1",
+      "stallName": "哈哈哈哈哈店铺名",
+      "createTime": "2019-03-21",
+      "contactNumber": "15201346666",
+      "partnerEid": "2",
+      "id": "2",
+      "agentId": "123",
+      "agentName": "sss",
+      "managerUid": "1",
+      "typeUpdateTime": "May 29"
+    }
+  ],
+  "msg": ""
+}

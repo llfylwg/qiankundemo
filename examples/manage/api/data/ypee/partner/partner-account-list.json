@@ -1,0 +1,23 @@
+{
+  "msg": "'null'",
+  "data": [
+    {
+      "latestRechargeTime": "1566029541395",
+      "statusDesc": "正常",
+      "avgSpendingOfMonthlyAsYuan": "45.00",
+      "rows": "1",
+      "avgSpendingOfMonthly": "4500",
+      "authorisedTime": "1566029541395",
+      "uid": "1",
+      "operations": "'recharge'",
+      "balance": "12300",
+      "spendingOfYesterdayAsYuan": "50.00",
+      "balanceAsYuan": "123.00",
+      "name": "姓名",
+      "spendingOfYesterday": "5000",
+      "status": "1"
+    }
+  ],
+  "rows": 10,
+  "code": "0"
+}

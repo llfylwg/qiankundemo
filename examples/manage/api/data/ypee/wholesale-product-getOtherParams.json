@@ -1,0 +1,40 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "paramId": "1",
+      "formName": "service",
+      "paramName": "售后服务",
+      "values": [
+        {
+          "valueId": 111,
+          "valueText": "提供发票"
+        },
+        {
+          "valueId": 112,
+          "valueText": "7天免费退货"
+        },
+        {
+          "valueId": 113,
+          "valueText": "24小时内发货"
+        }
+      ]
+    },
+    {
+      "paramId": "2",
+      "formName": "specialDesc",
+      "paramName": "特别说明",
+      "values": [
+        {
+          "valueId": 211,
+          "valueText": "不退不换"
+        },
+        {
+          "valueId": 212,
+          "valueText": "退换货运费买家承担"
+        }
+      ]
+    }
+  ],
+  "msg": ""
+}

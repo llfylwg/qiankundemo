@@ -1,0 +1,26 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "statusCode": 1,
+      "num": 4
+    },
+    {
+      "statusCode": 2,
+      "num": 18
+    },
+    {
+      "statusCode": 3,
+      "num": 1
+    },
+    {
+      "statusCode": 4,
+      "num": 0
+    },
+    {
+      "statusCode": 5,
+      "num": 23
+    }
+  ],
+  "msg": ""
+}
