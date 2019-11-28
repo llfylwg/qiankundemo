@@ -6,6 +6,7 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import * as Http from '@/assets/js/axios.js';
 import Viser from 'viser-vue';
+import './public-path'
 import { formatTime } from './assets/util';
 
 Vue.use(Viser);

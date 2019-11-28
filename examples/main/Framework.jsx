@@ -19,14 +19,14 @@ export default function Framework(props) {
       console.log('master interval');
     }, 1000);
   }
-
+  console.log(content)
   return (
     <>
       <header className={style.header}>
         <nav>
           <ol>
-            <li><a onClick={() => goto('home', '/')}>home</a></li>
-            <li><a onClick={() => goto('react app', '/react')}>react16 + antd3</a></li>
+            {/* <li><a onClick={() => goto('home', '/')}>home</a></li>
+            <li><a onClick={() => goto('react app', '/react')}>react16 + antd3</a></li> */}
             <li><a onClick={() => goto('react15 app', '/15react15')}>react15 + antd2</a></li>
             <li><a onClick={() => goto('manage app', '/bm-manage')}>企业版</a></li>
           </ol>

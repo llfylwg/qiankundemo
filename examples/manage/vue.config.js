@@ -12,6 +12,13 @@ module.exports = {
   lintOnSave: true,
   configureWebpack: config => {
     // 入口文件
+    config.output = Object.assign({}, {
+      // 把子应用打包成 umd 库格式
+      ...config.output,
+      library: '[name]',
+      filename: '[name].js',
+      libraryTarget: 'umd',
+    })
     config.entry.app = ['./src/main.js'];
     // 删除console插件
     let plugins = [
