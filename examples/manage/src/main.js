@@ -10,12 +10,14 @@ import './public-path'
 import { formatTime } from './assets/util';
 
 Vue.use(Viser);
-
+Vue.prototype.$http = Http;
+Vue.use(ElementUI);
+Vue.config.productionTip = false;
+Vue.filter('formatTime', (value) => value ? formatTime(value) : '');
 let router = null;
 let instance = null;
 
 export async function bootstrap() {
-  debugger;
   console.log('vue app bootstraped');
 }
 

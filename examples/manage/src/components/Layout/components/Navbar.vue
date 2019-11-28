@@ -79,7 +79,7 @@ export default {
       this.$store.dispatch('ToggleSideBar')
     },
     logout() {
-      this.$http.get('https://ypauthapi.zhuanzhuan.com/logout').then(res => {
+      this.$http.get('//ypauthapi.zhuanzhuan.com/logout').then(res => {
         window.location.replace(`https://open.zhuanzhuan.com`)
       })
     }

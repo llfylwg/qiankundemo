@@ -69,7 +69,7 @@
       }
     },
     created () {
-      get('//ypauthapi.zhuanzhuan.com/function/listMenuTree?sysCode=YPEE').then(res => {
+      get('http://ypauthapi.zhuanzhuan.com/function/listMenuTree?sysCode=YPEE').then(res => {
         this.navData = res.data
         // 特殊判断商品管理的权限，如果有商品管理权限，才会调用waitBargainingCnt的接口
         const menus = this.navData.filter(item => {
