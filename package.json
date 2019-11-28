@@ -12,11 +12,12 @@
   "types": "./es/index.d.ts",
   "sideEffects": false,
   "scripts": {
-    "start": "concurrently \"yarn start:main\" \"yarn start:react16\" \"yarn start:react15\" \"yarn start:vue\"",
+    "start": "concurrently \"yarn start:main\" \"yarn start:react16\" \"yarn start:react15\" \"yarn start:manage\"",
     "install:examples": "yarn build && cd examples/main && yarn && cd ../react16 && yarn && cd ../react15 && yarn && cd ../vue && yarn",
     "start:main": "cd examples/main && yarn start",
     "start:react16": "cd examples/react16 && yarn start",
     "start:react15": "cd examples/react15 && yarn start",
+    "start:manage": "cd examples/manage && yarn start",
     "start:vue": "cd examples/vue && yarn start",
     "start:cra": "cd examples/cra && npm start",
     "build": "father-build",

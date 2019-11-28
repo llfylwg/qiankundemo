@@ -7,7 +7,7 @@ import fetch from 'isomorphic-fetch';
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import Vue from 'vue';
-import { registerMicroApps, runAfterFirstMounted, setDefaultMountApp, start } from '../../es';
+import { registerMicroApps, runAfterFirstMounted, setDefaultMountApp, start } from 'qiankun';
 import Framework from './Framework';
 // import Framework from './Framework.vue';
 
@@ -60,7 +60,8 @@ registerMicroApps(
   [
     { name: 'react app', entry: '//localhost:7100', render, activeRule: genActiveRule('/react') },
     { name: 'react15 app', entry: '//localhost:7102', render, activeRule: genActiveRule('/15react15') },
-    { name: 'vue app', entry: '//localhost:7101', render, activeRule: genActiveRule('/vue') },
+    // { name: 'vue app', entry: '//localhost:7101', render, activeRule: genActiveRule('/vue') },
+    { name: 'vue manage app', entry: '//localhost:1024', render, activeRule: genActiveRule('/bm-manage') },
   ],
   {
     beforeLoad: [
